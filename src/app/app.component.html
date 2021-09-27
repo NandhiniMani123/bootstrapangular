@@ -1,0 +1,24 @@
+ <!-- Responsive navbar-->
+ <app-topnavbar></app-topnavbar>
+
+<!-- Page content-->
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-lg-8">
+         <!-- Post content-->
+         <router-outlet></router-outlet>
+         <!--<app-blogpost></app-blogpost>-->
+      </div>
+      <!-- Side widgets-->
+      <div class="col-lg-4">
+          <!-- Search widget-->
+         <app-search></app-search>
+          <!-- Categories widget-->
+          <app-categories></app-categories>
+          <!-- Side widget-->
+         <app-side></app-side>
+      </div>
+  </div>
+</div>
+<!-- Footer-->
+<app-footer></app-footer>
